@@ -81,15 +81,9 @@ const projects: Project[] = [
   }
 ];
 
-interface ProjectsSectionProps {
-  isVisible: boolean;
-}
-
-export const ProjectsSection = ({ isVisible }: ProjectsSectionProps) => {
+export const ProjectsSection = () => {
   const [activeProject, setActiveProject] = useState<string | null>(null);
   const [inspectMode, setInspectMode] = useState<Record<string, boolean>>({});
-
-  if (!isVisible) return null;
 
   const toggleInspect = (projectId: string) => {
     setInspectMode(prev => ({ ...prev, [projectId]: !prev[projectId] }));

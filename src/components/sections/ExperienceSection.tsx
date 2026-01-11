@@ -42,13 +42,7 @@ const experiences: Experience[] = [
   }
 ];
 
-interface ExperienceSectionProps {
-  isVisible: boolean;
-}
-
-export const ExperienceSection = ({ isVisible }: ExperienceSectionProps) => {
-  if (!isVisible) return null;
-
+export const ExperienceSection = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}

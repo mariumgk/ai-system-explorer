@@ -114,37 +114,32 @@ export const MainWorld = () => {
 
       {/* Content sections */}
       <AnimatePresence mode="wait">
-        <BootSection 
-          key="boot"
-          isVisible={!isBooted}
-          onStart={handleStart}
-        />
+        {!isBooted && (
+          <BootSection 
+            key="boot"
+            onStart={handleStart}
+          />
+        )}
         
-        <ProjectsSection 
-          key="projects"
-          isVisible={isBooted && currentSection === 1}
-        />
+        {isBooted && currentSection === 1 && (
+          <ProjectsSection key="projects" />
+        )}
         
-        <CapabilitiesSection 
-          key="capabilities"
-          isVisible={isBooted && currentSection === 2}
-        />
+        {isBooted && currentSection === 2 && (
+          <CapabilitiesSection key="capabilities" />
+        )}
         
-        <ExperienceSection 
-          key="experience"
-          isVisible={isBooted && currentSection === 3}
-        />
+        {isBooted && currentSection === 3 && (
+          <ExperienceSection key="experience" />
+        )}
         
-        <AwardsSection 
-          key="awards"
-          isVisible={isBooted && currentSection === 4}
-        />
+        {isBooted && currentSection === 4 && (
+          <AwardsSection key="awards" />
+        )}
         
-        <ContactSection 
-          key="contact"
-          isVisible={isBooted && currentSection === 5}
-          onRestart={handleRestart}
-        />
+        {isBooted && currentSection === 5 && (
+          <ContactSection key="contact" onRestart={handleRestart} />
+        )}
       </AnimatePresence>
 
       {/* Mobile section indicator */}

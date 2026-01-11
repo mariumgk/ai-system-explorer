@@ -28,14 +28,8 @@ const certificates: string[] = [
   'AWS Machine Learning Specialty'
 ];
 
-interface AwardsSectionProps {
-  isVisible: boolean;
-}
-
-export const AwardsSection = ({ isVisible }: AwardsSectionProps) => {
+export const AwardsSection = () => {
   const [certsExpanded, setCertsExpanded] = useState(false);
-
-  if (!isVisible) return null;
 
   return (
     <motion.div

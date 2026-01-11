@@ -3,12 +3,10 @@ import { Mail, Github, Linkedin, ExternalLink, RotateCcw, FileText } from 'lucid
 import { Link } from 'react-router-dom';
 
 interface ContactSectionProps {
-  isVisible: boolean;
   onRestart: () => void;
 }
 
-export const ContactSection = ({ isVisible, onRestart }: ContactSectionProps) => {
-  if (!isVisible) return null;
+export const ContactSection = ({ onRestart }: ContactSectionProps) => {
 
   const contactLinks = [
     {

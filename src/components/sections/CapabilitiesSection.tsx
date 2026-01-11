@@ -35,13 +35,7 @@ const capabilities: CapabilityGroup[] = [
   }
 ];
 
-interface CapabilitiesSectionProps {
-  isVisible: boolean;
-}
-
-export const CapabilitiesSection = ({ isVisible }: CapabilitiesSectionProps) => {
-  if (!isVisible) return null;
-
+export const CapabilitiesSection = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
