@@ -3,12 +3,9 @@ import { Play, Terminal, Cpu } from 'lucide-react';
 
 interface BootSectionProps {
   onStart: () => void;
-  isVisible: boolean;
 }
 
-export const BootSection = ({ onStart, isVisible }: BootSectionProps) => {
-  if (!isVisible) return null;
-
+export const BootSection = ({ onStart }: BootSectionProps) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
