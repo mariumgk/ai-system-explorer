@@ -7,60 +7,60 @@
 
 @layer base {
   :root {
-    /* Core System Colors */
-    --background: 222 47% 4%;
+    /* Core System Colors - Lighter Navy Theme */
+    --background: 220 30% 12%;
     --foreground: 210 40% 96%;
     
     /* Card/Panel - Glassmorphism base */
-    --card: 222 47% 8%;
+    --card: 220 28% 18%;
     --card-foreground: 210 40% 96%;
     
-    --popover: 222 47% 6%;
+    --popover: 220 28% 15%;
     --popover-foreground: 210 40% 96%;
     
     /* Primary - Electric Cyan */
     --primary: 185 100% 50%;
-    --primary-foreground: 222 47% 4%;
-    --primary-glow: 185 100% 60%;
+    --primary-foreground: 220 30% 8%;
+    --primary-glow: 185 100% 65%;
     
-    /* Secondary - Deep Navy */
-    --secondary: 222 47% 12%;
-    --secondary-foreground: 210 40% 90%;
+    /* Secondary - Lighter Navy */
+    --secondary: 220 28% 22%;
+    --secondary-foreground: 210 40% 92%;
     
     /* Muted - Subdued elements */
-    --muted: 222 30% 16%;
-    --muted-foreground: 215 20% 55%;
+    --muted: 220 25% 26%;
+    --muted-foreground: 215 20% 65%;
     
     /* Accent - Violet hint for variety */
-    --accent: 265 80% 60%;
+    --accent: 265 80% 65%;
     --accent-foreground: 210 40% 98%;
     
     /* System States */
     --destructive: 0 72% 51%;
     --destructive-foreground: 210 40% 98%;
-    --success: 160 84% 39%;
-    --warning: 38 92% 50%;
+    --success: 160 84% 45%;
+    --warning: 38 92% 55%;
     
     /* Borders & Inputs */
-    --border: 222 30% 18%;
-    --input: 222 30% 14%;
+    --border: 220 25% 28%;
+    --input: 220 25% 22%;
     --ring: 185 100% 50%;
     
     --radius: 0.75rem;
     
     /* Glass effect tokens */
-    --glass-bg: 222 47% 8% / 0.6;
-    --glass-border: 185 100% 50% / 0.15;
-    --glass-glow: 185 100% 50% / 0.1;
+    --glass-bg: 220 28% 18% / 0.7;
+    --glass-border: 185 100% 50% / 0.2;
+    --glass-glow: 185 100% 50% / 0.12;
     
     /* Sidebar tokens */
-    --sidebar-background: 222 47% 6%;
-    --sidebar-foreground: 210 40% 90%;
+    --sidebar-background: 220 28% 15%;
+    --sidebar-foreground: 210 40% 92%;
     --sidebar-primary: 185 100% 50%;
-    --sidebar-primary-foreground: 222 47% 4%;
-    --sidebar-accent: 222 47% 12%;
-    --sidebar-accent-foreground: 210 40% 90%;
-    --sidebar-border: 222 30% 18%;
+    --sidebar-primary-foreground: 220 30% 8%;
+    --sidebar-accent: 220 28% 22%;
+    --sidebar-accent-foreground: 210 40% 92%;
+    --sidebar-border: 220 25% 28%;
     --sidebar-ring: 185 100% 50%;
   }
 
