@@ -7,61 +7,61 @@
 
 @layer base {
   :root {
-    /* Core System Colors - Lighter Navy Theme */
-    --background: 220 30% 12%;
-    --foreground: 210 40% 96%;
+    /* Core System Colors - Soft Light Theme */
+    --background: 220 20% 22%;
+    --foreground: 210 30% 95%;
     
     /* Card/Panel - Glassmorphism base */
-    --card: 220 28% 18%;
-    --card-foreground: 210 40% 96%;
+    --card: 220 18% 28%;
+    --card-foreground: 210 30% 95%;
     
-    --popover: 220 28% 15%;
-    --popover-foreground: 210 40% 96%;
+    --popover: 220 18% 25%;
+    --popover-foreground: 210 30% 95%;
     
-    /* Primary - Electric Cyan */
-    --primary: 185 100% 50%;
-    --primary-foreground: 220 30% 8%;
-    --primary-glow: 185 100% 65%;
+    /* Primary - Soft Teal */
+    --primary: 180 55% 55%;
+    --primary-foreground: 220 20% 15%;
+    --primary-glow: 180 60% 65%;
     
-    /* Secondary - Lighter Navy */
-    --secondary: 220 28% 22%;
-    --secondary-foreground: 210 40% 92%;
+    /* Secondary - Warm Gray */
+    --secondary: 220 15% 32%;
+    --secondary-foreground: 210 25% 90%;
     
-    /* Muted - Subdued elements */
-    --muted: 220 25% 26%;
-    --muted-foreground: 215 20% 65%;
+    /* Muted - Soft elements */
+    --muted: 220 12% 38%;
+    --muted-foreground: 215 15% 70%;
     
-    /* Accent - Violet hint for variety */
-    --accent: 265 80% 65%;
-    --accent-foreground: 210 40% 98%;
+    /* Accent - Soft Lavender */
+    --accent: 260 45% 65%;
+    --accent-foreground: 210 30% 98%;
     
     /* System States */
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 210 40% 98%;
-    --success: 160 84% 45%;
-    --warning: 38 92% 55%;
+    --destructive: 0 55% 55%;
+    --destructive-foreground: 210 30% 98%;
+    --success: 155 50% 50%;
+    --warning: 40 70% 55%;
     
     /* Borders & Inputs */
-    --border: 220 25% 28%;
-    --input: 220 25% 22%;
-    --ring: 185 100% 50%;
+    --border: 220 12% 38%;
+    --input: 220 15% 32%;
+    --ring: 180 55% 55%;
     
     --radius: 0.75rem;
     
     /* Glass effect tokens */
-    --glass-bg: 220 28% 18% / 0.7;
-    --glass-border: 185 100% 50% / 0.2;
-    --glass-glow: 185 100% 50% / 0.12;
+    --glass-bg: 220 18% 28% / 0.75;
+    --glass-border: 180 55% 55% / 0.25;
+    --glass-glow: 180 55% 55% / 0.1;
     
     /* Sidebar tokens */
-    --sidebar-background: 220 28% 15%;
-    --sidebar-foreground: 210 40% 92%;
-    --sidebar-primary: 185 100% 50%;
-    --sidebar-primary-foreground: 220 30% 8%;
-    --sidebar-accent: 220 28% 22%;
-    --sidebar-accent-foreground: 210 40% 92%;
-    --sidebar-border: 220 25% 28%;
-    --sidebar-ring: 185 100% 50%;
+    --sidebar-background: 220 18% 25%;
+    --sidebar-foreground: 210 25% 90%;
+    --sidebar-primary: 180 55% 55%;
+    --sidebar-primary-foreground: 220 20% 15%;
+    --sidebar-accent: 220 15% 32%;
+    --sidebar-accent-foreground: 210 25% 90%;
+    --sidebar-border: 220 12% 38%;
+    --sidebar-ring: 180 55% 55%;
   }
 
   .dark {
