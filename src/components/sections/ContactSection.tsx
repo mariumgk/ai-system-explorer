@@ -11,22 +11,22 @@ export const ContactSection = ({ onRestart }: ContactSectionProps) => {
   const contactLinks = [
     {
       name: 'Email',
-      value: 'your.email@example.com',
-      href: 'mailto:your.email@example.com',
+      value: 'marium.imranrauf@gmail.com',
+      href: 'mailto:marium.imranrauf@gmail.com',
       icon: <Mail className="w-5 h-5" />,
       external: true
     },
     {
       name: 'GitHub',
-      value: 'github.com/yourusername',
-      href: 'https://github.com/yourusername',
+      value: 'github.com/mariumgk',
+      href: 'https://github.com/mariumgk',
       icon: <Github className="w-5 h-5" />,
       external: true
     },
     {
       name: 'LinkedIn',
-      value: 'linkedin.com/in/yourusername',
-      href: 'https://linkedin.com/in/yourusername',
+      value: 'linkedin.com/in/marium-imran',
+      href: 'https://www.linkedin.com/in/marium-imran-1139072a1',
       icon: <Linkedin className="w-5 h-5" />,
       external: true
     }
