@@ -25,21 +25,21 @@ const Resume = () => {
         <article className="prose prose-invert max-w-none">
           {/* Header */}
           <header className="mb-8 pb-8 border-b border-border">
-            <h1 className="text-3xl font-bold mb-2">Marium Imran</h1>
+            <h1 className="text-3xl font-bold mb-2">Your Name</h1>
             <p className="text-lg text-primary mb-4">Data Science & AI Undergraduate</p>
             
             <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
-              <a href="mailto:marium.imranrauf@gmail.com" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <a href="mailto:your.email@example.com" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Mail className="w-4 h-4" />
-                marium.imranrauf@gmail.com
+                your.email@example.com
               </a>
-              <a href="https://github.com/mariumgk" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <a href="https://github.com/yourusername" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Github className="w-4 h-4" />
-                github.com/mariumgk
+                github.com/yourusername
               </a>
-              <a href="https://www.linkedin.com/in/marium-imran-1139072a1" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <a href="https://linkedin.com/in/yourusername" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Linkedin className="w-4 h-4" />
-                linkedin.com/in/marium-imran
+                linkedin.com/in/yourusername
               </a>
             </div>
           </header>

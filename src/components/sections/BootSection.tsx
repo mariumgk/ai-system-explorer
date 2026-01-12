@@ -33,7 +33,7 @@ export const BootSection = ({ onStart }: BootSectionProps) => {
           transition={{ delay: 0.4 }}
           className="text-5xl md:text-7xl font-bold mb-4 glow-text text-gradient-primary"
         >
-          Marium Imran
+          Your Name
         </motion.h1>
 
         {/* Title */}
